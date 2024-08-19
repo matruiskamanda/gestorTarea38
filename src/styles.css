@@ -1,0 +1,67 @@
+/* Estilos generales */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Estilos para contenedor principal */
+
+#app{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estilo para formulario */
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* estlos al input */
+input{
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* estilos al boton */
+button{
+    padding: 5px 8px;
+    background-color: #161b21;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* estilos lista */
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* estilos a los elementos de la lista */
+li{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* estilos para cuando una tarea esta completada */
+li.completed{
+    color: #888;
+    text-decoration: line-through;
+}
